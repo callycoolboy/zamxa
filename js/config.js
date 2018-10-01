@@ -47,7 +47,7 @@ function checkNetConnection(){
    return true;
   } else {
 	  navigator.vibrate(500);
-	  swal("Network Error!!!", "Check Internet Connection and Try Again.", "error");
+	  swal("Network Error!!!", "Check Internet Connection Or check if app is running in Latest Version and Try Again.", "error");
 	  var dura = 3000;
     setTimeout(function() {
 	  navigator.app.exitApp();
@@ -56,7 +56,7 @@ function checkNetConnection(){
   }
  } catch (e) {
 	 navigator.vibrate(500);
-	  swal("Network Error!!!", "Check Internet Connection and Try Again.", "error");
+	  swal("Network Error!!!", "Check Internet Connection Or check if app is running in Latest Version and Try Again.", "error");
 	  var dura = 3000;
     setTimeout(function() {
 	  navigator.app.exitApp();
