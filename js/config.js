@@ -38,7 +38,7 @@ if(online) {
    
 function checkNetConnection(){
   var xhr = new XMLHttpRequest();
- var file = "https://zamxa.stream/themes/images/icons-png/minus-black.png";
+ var file = "https://zamxa.store/themes/images/icons-png/minus-black.png";
  var r = Math.round(Math.random() * 10000);
  xhr.open('HEAD', file + '?subins=' + r, false);
  try {
