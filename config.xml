@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.zamxa" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>ZAMXA</name>
+<!--<widget id="com.phonegap.zamxa" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">-->
+<widget android-versionCode="10004" id="com.phonegap.zamxa" ios-CFBundleVersion="1.0.4" version="1.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name>ZAMXA</name>
     <description>
         No 1 Online Store.
     </description>
@@ -9,7 +10,7 @@
     </author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
-    <preference name="android-minSdkVersion" value="14"/> //android 3.0
+    <preference name="android-minSdkVersion" value="16"/> //android 3.0
     <preference name="android-targetSdkVersion" value="26"/> //android 4.2
     <plugin name="cordova-plugin-console" source="npm" spec="~1.0.2" />
     <plugin name="cordova-plugin-device" source="npm" spec="~1.1.1" />
