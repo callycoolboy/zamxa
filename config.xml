@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!--<widget id="com.phonegap.zamxa" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">-->
-<widget android-versionCode="10004" id="com.phonegap.zamxa" ios-CFBundleVersion="1.0.4" version="1.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget android-versionCode="10005" id="com.phonegap.zamxa" ios-CFBundleVersion="1.0.5" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 	<name>ZAMXA</name>
     <description>
         No 1 Online Store.
@@ -23,7 +23,7 @@
     <plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.2.1" />
     <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2" />
     <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0" />
-    <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
+    <!--<plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />-->
     <platform name="android">
         <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
         <icon density="mdpi" src="www/res/icon/android/drawable-mdpi-icon.png" />
